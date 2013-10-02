@@ -1,0 +1,106 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.wrapper {
+  width: 95%;
+  height: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p {
+  text-align: left;
+  position: relative;
+  left: 1%;
+  top-margin: -35px;
+  font-size: 12px;
+}
+
+.title {
+  margin: 5% auto;
+}
+
+.1 {
+  position: absolute;
+}
+
+.2 {
+  position: absolute;
+}
+
+.3 {
+  position: absolute;
+}
+
+.4 {
+  position: absolute;
+  left: 20%;
+}
+
+
+
+@media screen and (min-width: 1400px) {
+  body {
+        background-color: #f7d64c;
+  }
+
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  body {
+    background-color: #ff9900;
+    h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+  }
+
+}
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+  body {
+    background-color: #ff9911;
+  }
+  h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+@media screen and (max-width: 1100px) and (min-width: 900px) {
+  body {
+    background-color: #ff9900;
+  }
+  h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  body {
+    background-color: #ff4400;
+  }
+  h1 {
+  font-size: 7em;
+  font-weight: bold;
+}
+
+
+}
+@media screen and (max-width: 600px)  {
+  body {
+    background-color: #e3e3e3;
+  }
+
+}
