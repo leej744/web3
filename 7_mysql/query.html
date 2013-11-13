@@ -1,0 +1,16 @@
+<?
+   $connect=mysql_connect("locahost","id","pw")or die(mysql_error());
+  
+   mysql_select_db("dbname",$connect);
+
+   $query="insert into form1
+       
+          values('$name','$memo')";
+
+   mysql_query($query,$connect);
+?>
+  
+   <script>
+  
+   location.href='index.html'
+</script>
